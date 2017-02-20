@@ -3,6 +3,7 @@
 namespace departmentofhealth\yii2\dohclient;
 
 use yii\authclient\OAuth2;
+
 use dektrium\user\clients\ClientInterface;
 
 class DohClientDektrium extends OAuth2 implements ClientInterface
