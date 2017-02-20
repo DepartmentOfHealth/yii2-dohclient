@@ -20,7 +20,7 @@ php composer require --prefer-dist departmentofhealth/yii2-dohclient "*"
 ที่ไฟล์  `composer.json` ในส่วนของ require
 
 
-การใช้งาน
+การใช้งานร่วมกับ [yii2-user](https://github.com/dektrium/yii2-user)
 -----
 
 ตั้งค่า authClientCollection ที่ main.php ใสส่วนของ components
@@ -44,7 +44,7 @@ php composer require --prefer-dist departmentofhealth/yii2-dohclient "*"
 ...
 ```
 
-เรียกใช้งาน widget ที่หน้า login
+ทำการ override view [yii2-user](https://github.com/dektrium/yii2-user/blob/0.9.12/docs/overriding-views.md) และเรียกใช้งาน widget ที่หน้า login
 
 ```php
 <?php
