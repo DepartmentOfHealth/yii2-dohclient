@@ -20,6 +20,12 @@ php composer require --prefer-dist departmentofhealth/yii2-dohclient "*"
 ที่ไฟล์  `composer.json` ในส่วนของ require
 
 
+ลงทะเบียนเข้าใช้งาน DOH SSO 
+---
+- ลงทะเบียนเข้าใช้งานที่ http://sso.anamai.moph.go.th
+- กรอกข้อมูลส่วนตัว
+- สร้าง Application และกรอก redirect url จะได้ clientID, clientSecret
+
 การใช้งานร่วมกับ [yii2-user](https://github.com/dektrium/yii2-user)
 -----
 
