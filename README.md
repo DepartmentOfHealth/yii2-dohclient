@@ -54,6 +54,8 @@ php composer require --prefer-dist departmentofhealth/yii2-dohclient "*"
 
 ```php
 <?php
+    use yii\authclient\widgets\AuthChoice;
+    
     $authAuthChoice = AuthChoice::begin([
         'baseAuthUrl' => ['/user/security/auth'],
         'popupMode' => false,
