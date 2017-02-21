@@ -8,11 +8,11 @@ use dektrium\user\clients\ClientInterface;
 
 class DohClientDektrium extends OAuth2 implements ClientInterface
 {
-    public $authUrl = 'http://app-sso.dev/oauth2/authorize/index';
+    public $authUrl = 'http://sso.anamai.moph.go.th/oauth2/authorize/index';
 
-    public $tokenUrl = 'http://app-sso.dev/oauth2/token/index';
+    public $tokenUrl = 'http://sso.anamai.moph.go.th/oauth2/token/index';
 
-    public $apiBaseUrl = 'http://app-sso.dev/api/v1';
+    public $apiBaseUrl = 'http://sso.anamai.moph.go.th/api/v1';
 
     public $attributeNames = [
         'email',
